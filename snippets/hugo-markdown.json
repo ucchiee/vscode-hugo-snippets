@@ -52,5 +52,15 @@
     "prefix": "h-youtube",
     "body": ["{{< youtube ${1:videoId} >}}"],
     "description": "Youtube Shortcode"
+  },
+  "hugo-katex": {
+    "prefix": "h-katex",
+    "body": ["{{< katex >}} ${1:math} {{< /katex >}}"],
+    "description": "Katex Template"
+  },
+  "hugo-katex-display": {
+    "prefix": "h-katex-display",
+    "body": ["{{< katex display >}} ${1:math} {{< /katex >}}"],
+    "description": "Katex Template (display)"
   }
 }
