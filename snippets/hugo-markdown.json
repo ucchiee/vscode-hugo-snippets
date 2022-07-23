@@ -65,7 +65,11 @@
   },
   "hugo-hint": {
     "prefix": "h-hint",
-    "body": ["{{< hint ${1:[info|warning|danger]} >}} ${2:md contents} {{< /hint >}}"],
+    "body": [
+      "{{< hint ${1:[info|warning|danger]} >}}",
+      "${2:md contents}",
+      "{{< /hint >}}"
+    ],
     "description": "Hint Shortcode"
   }
 }
