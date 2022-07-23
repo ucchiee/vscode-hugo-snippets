@@ -62,5 +62,10 @@
     "prefix": "h-katex-display",
     "body": ["{{< katex display >}} ${1:math} {{< /katex >}}"],
     "description": "Katex Template (display)"
+  },
+  "hugo-hint": {
+    "prefix": "h-hint",
+    "body": ["{{< hint ${1:[info|warning|danger]} >}} ${2:md contents} {{< /hint >}}"],
+    "description": "Hint Shortcode"
   }
 }
