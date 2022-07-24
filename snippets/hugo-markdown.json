@@ -71,5 +71,14 @@
       "{{< /hint >}}"
     ],
     "description": "Hint Shortcode"
+  },
+  "hugo-hint": {
+    "prefix": "h-details",
+    "body": [
+      "{{< details '${1:Title}' ${2:[open]} >}}",
+      "${3:md contents}",
+      "{{< /details >}}"
+    ],
+    "description": "Details Shortcode"
   }
 }
