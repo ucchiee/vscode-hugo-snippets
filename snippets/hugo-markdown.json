@@ -80,5 +80,14 @@
       "{{< /details >}}"
     ],
     "description": "Details Shortcode"
+  },
+  "hugo-tabs": {
+    "prefix": "h-tabs",
+    "body": [
+      "{{< tabs \"${1:uniqueid}\" >}}",
+      "{{< tab \"${2:tab name}\" >}} ${3:tab contents} {{< /tab >}}",
+      "{{< /tabs >}}"
+    ],
+    "description": "Details Shortcode"
   }
 }
