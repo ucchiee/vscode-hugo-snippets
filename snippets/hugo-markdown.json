@@ -89,5 +89,16 @@
       "{{< /tabs >}}"
     ],
     "description": "Details Shortcode"
+  },
+  "hugo-columns": {
+    "prefix": "h-columns",
+    "body": [
+      "{{< columns >}}",
+      "${1:markdown contents}",
+      "<--->",
+      "${2:markdown contents}",
+      "{{< /columns >}}"
+    ],
+    "description": "Columns Shortcode"
   }
 }
