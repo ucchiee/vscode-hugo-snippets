@@ -100,5 +100,14 @@
       "{{< /columns >}}"
     ],
     "description": "Columns Shortcode"
+  },
+  "hugo-mermaid": {
+    "prefix": "h-mermaid",
+    "body": [
+      "{{< mermaid >}}",
+      "${1:mermaid contents}",
+      "{{< /mermaid >}}"
+    ],
+    "description": "Mermaid Shortcode"
   }
 }
